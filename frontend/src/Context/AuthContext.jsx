@@ -1,7 +1,7 @@
 import React, { createContext, useState } from 'react'
 export const authDataContext = createContext()
 function AuthContext({children}) {
-    const serverUrl = import.meta.env.VITE_SERVER_URL || ""
+    const serverUrl = "https://gharbazaar-backend.onrender.com"
 
     let [loading,setLoading]=useState(false)
 
