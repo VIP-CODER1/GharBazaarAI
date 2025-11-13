@@ -1,7 +1,7 @@
 import React, { createContext, useState } from 'react'
 export const authDataContext = createContext()
 function AuthContext({children}) {
-    const serverUrl = "https://gharbazaar-backend.onrender.com"
+    const serverUrl = "https://gharbazaarai.onrender.com"
 
     let [loading,setLoading]=useState(false)
 
