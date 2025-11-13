@@ -4,13 +4,14 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "vite",
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "serve -s dist -l $PORT",
+    "lint": "eslint ."
   },
   "dependencies": {
+    "serve": "^14.0.1",
     "@react-three/drei": "^10.2.0",
     "@react-three/fiber": "^9.1.2",
     "axios": "^1.8.4",
