@@ -16,7 +16,7 @@ app.use(express.json())
 app.use(cookieParser())
 const allowedOrigins = [
     process.env.FRONTEND_ORIGIN,
-    "http://localhost:5173",
+    // "http://localhost:5173",
    "https://gharbazaarai.onrender.com"
 ].filter(Boolean)
 
