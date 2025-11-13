@@ -1,0 +1,68 @@
+# Root .gitignore for GharBazaarAI (frontend + backend)
+
+# --- Logs & diagnostics ---
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# --- Dependency directories ---
+node_modules/
+*/node_modules/
+
+# --- Build outputs & bundles ---
+dist/
+build/
+out/
+frontend/dist/
+backend/dist/
+dist-ssr/
+.next/
+.nuxt/
+.parcel-cache/
+.vite/
+.cache/
+
+# --- Runtime data & uploads ---
+backend/public/uploads/
+backend/public/uploads/**
+
+# --- Environment & secrets ---
+.env
+.env.*
+frontend/.env
+frontend/.env.*
+backend/.env
+backend/.env.*
+*.pem
+*.key
+*.crt
+
+# --- Coverage & reports ---
+coverage/
+reports/
+
+# --- IDE & editor settings ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# --- System files ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# --- Misc ---
+*.local
+frontend_backup/
+
+# --- Package managers (optional, keep if repo enforces locks externally) ---
+pnpm-lock.yaml
+yarn.lock
