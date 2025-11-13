@@ -17,7 +17,7 @@ app.use(cookieParser())
 const allowedOrigins = [
     process.env.FRONTEND_ORIGIN,
     "http://localhost:5173",
-    https://gharbazaarai.onrender.com
+   "https://gharbazaarai.onrender.com"
 ].filter(Boolean)
 
 app.use(cors({
